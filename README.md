@@ -12,3 +12,8 @@ da li neki stringa počinje s datum subString-om. Dobiveni rezultati se trunkira
 Svaka se tako lista od do 3 riječi dodjeljuje iznad spomenutoj pomoćnoj listi, koja se nakon završavanje for petlje vraća kao rezultat.
 
 Onda se Main funkciji vrši ispis.
+
+-vremenska kompleksnost
+
+Sa svim elementima uzetim u obzir: O(3n+n^2)
+Sa dominantnim elementom: O(n^2)
