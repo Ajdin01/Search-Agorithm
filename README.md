@@ -2,8 +2,8 @@ Određeni dio koda je objašnjen već kroz komentare, ali ovdje ćemo dodatno ra
 
 U main funkciji se unose potrebni podaci za obradu, i poziva se funkcija searchSuggestions(x,x)
 
-Unutar te funkcije prvo se kreira pomoćna lista za spremanje podataka.
-Zatik se vrši preliminarni .sort unesene "baze podataka riječi" kako bi se kasnije izbjeglo 
+Unutar te funkcije prvo se kreira pomoćna lista za spremanje podataka. \n
+Zatim se vrši preliminarni .sort unesene "baze podataka riječi" kako bi se kasnije izbjeglo 
 Neprestano sortiranje dobivene liste.
 Unutar for petlje se vrši trunkacija 'trazene rijeci' na dužinu iteratora petlje, kao simulacija sekvencijalnog unosa slova.
 Taj dobiveni subString se provjera direktno s svim riječima 'baze podataka' koristeći built-in funkciju C# startsWith, koja provjerava
